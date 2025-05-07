@@ -7,6 +7,7 @@
   <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote alias="repo" fetch="https://github.com/Freescale" name="githf"/>
   <remote alias="repo" fetch="https://git.toradex.com" name="tdx"/>
+  <remote alias="repo" fetch="https://github.com/mabembedded" name="mab"/>
 
   <default sync-j="4"/>
 
@@ -21,7 +22,6 @@
 
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="0351a84895d733077d5576d8937417581a1a43f9" upstream="scarthgap-7.x.y"/>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="31b3db3238a833babf58768143570f8490e90ea5" upstream="scarthgap-7.x.y"/>
-  <project name="meta-toradex-ti.git" path="layers/meta-toradex-ti" remote="tdx" revision="8bf12dffab112d39b66fc4f7bde151dba9ba048c" upstream="scarthgap-7.x.y"/>
 
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="92f0e7aa93966e184beb1ccdfea6c8fdb27d2b18"/>
@@ -29,5 +29,5 @@
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="3ce5c481bafafd22130d58b01091d355fe95944f"/>
   <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="5ed9c3c402ca8ce92e95bacb7a3fe3e34231a8c6"/>
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="0011372d21bd8ae481e991972f63cd6e8b0f927d">
-
+	  <project name="meta-mab" path="layers/meta-mab" remote="mab" revision="main">
 </manifest>
