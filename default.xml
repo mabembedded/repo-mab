@@ -30,4 +30,5 @@
   <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="5ed9c3c402ca8ce92e95bacb7a3fe3e34231a8c6"/>
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="0011372d21bd8ae481e991972f63cd6e8b0f927d"/>
   <project name="meta-mab" path="layers/meta-mab" remote="mab" revision="main"/>
+  	<copyfile dest="setup.sh" src="scripts/setup.sh"/>
 </manifest>
